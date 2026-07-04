@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+<log location="C:\LOGS\" history="2">
+    <event>
+      <eq property="Name" value="TLOCK" />
+      <like property="Regions" value="%AccRg%" />
+    </event>
+    <event>
+      <eq property="Name" value="TTIMEOUT" />
+    </event>
+    <event>
+      <eq property="Name" value="TDEADLOCK" />
+    </event>
+    <event>
+      <eq property="Name" value="DBMSSQL" />
+      <like property="Sql" value="%AccRg%" />
+    </event>
+    <property name="all" />
+  </log>
+</config>
