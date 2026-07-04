@@ -6,14 +6,14 @@
 		</Metadata>
 		<Metadata name="ChartOfAccounts.ПланСчетов1" id="e23ff7cf-bcab-4990-8a2a-4f09aea4b9eb" configVersion="42616f67d8112d4cbebba8936ea7c7fe00000000"/>
 		<Metadata name="ChartOfAccounts.ПланСчетов1.Predefined" id="e23ff7cf-bcab-4990-8a2a-4f09aea4b9eb.9" configVersion="d513b79e2e4e594cb8c3c3b7c17a190b00000000"/>
-		<Metadata name="CommonModule.ПереставитьГраницуВФоне" id="ae3c9697-a911-498d-bc5c-d5680916c4b3" configVersion="ae458aa62a568f4eb432941016b1a81a00000000"/>
-		<Metadata name="CommonModule.ПереставитьГраницуВФоне.Module" id="ae3c9697-a911-498d-bc5c-d5680916c4b3.0" configVersion="e53bbef561a4ce4885b7fd8450800b1400000000"/>
+		<Metadata name="CommonModule.ПереставитьГраницуВФоне" id="ae3c9697-a911-498d-bc5c-d5680916c4b3" configVersion="5a6fe060647fd14f9f07dabca5e54a9900000000"/>
+		<Metadata name="CommonModule.ПереставитьГраницуВФоне.Module" id="ae3c9697-a911-498d-bc5c-d5680916c4b3.0" configVersion="1dd8b73219bbcb449e91c9f06038e19f00000000"/>
 		<Metadata name="Configuration.Конфигурация" id="43055663-6117-445e-a84b-775527896cba" configVersion="7730b63d8a0d9f4ca767618ec849d71200000000"/>
 		<Metadata name="DataProcessor.ГенерацияДанныхИТест" id="738bd558-3183-4801-8c69-bfb467abe1b0" configVersion="0290c7e19a7bad46a0b129de8baa564000000000">
 			<Metadata name="DataProcessor.ГенерацияДанныхИТест.Attribute.Дата" id="0f8b71b6-0020-4f25-9045-3339a312a8b1"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма" id="62f4a4d6-55e8-4d81-8231-8947d23ec143" configVersion="9eb14988ab06074dafe4c8ce018198c300000000"/>
-		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма.Form" id="62f4a4d6-55e8-4d81-8231-8947d23ec143.0" configVersion="f2d611e6d943ea409e3e67677ceaf48500000000"/>
+		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма" id="62f4a4d6-55e8-4d81-8231-8947d23ec143" configVersion="0f9efeb69b10dc44baf5c5835f29df2800000000"/>
+		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма.Form" id="62f4a4d6-55e8-4d81-8231-8947d23ec143.0" configVersion="3b3f44d52f84864f9cbfab9e5de5c20d00000000"/>
 		<Metadata name="Document.Документ1" id="6659d170-c19a-417b-a614-c9778092a182" configVersion="72d8f23f483e9d4db5c2e3604dcdbf8000000000"/>
 		<Metadata name="Document.Документ1.ObjectModule" id="6659d170-c19a-417b-a614-c9778092a182.0" configVersion="bde68c82d66bf344b0017fe21b65a54800000000"/>
 		<Metadata name="Document.Документ2" id="95372996-4115-4449-94ba-1f32a9693e59" configVersion="63c84443a417a741bed2dd90b02ef65a00000000"/>
