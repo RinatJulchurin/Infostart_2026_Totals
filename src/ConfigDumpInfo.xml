@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccountingRegister.РегистрБухгалтерии1" id="3e3d8a4b-0a5d-483d-9f6b-3041a662e25d" configVersion="2da024cddf89e94092a44e2fa311948800000000">
+			<Metadata name="AccountingRegister.РегистрБухгалтерии1.Resource.Сумма" id="eacbde1c-f18e-40b9-a279-bf71b5b7ba34"/>
+		</Metadata>
+		<Metadata name="ChartOfAccounts.ПланСчетов1" id="e23ff7cf-bcab-4990-8a2a-4f09aea4b9eb" configVersion="42616f67d8112d4cbebba8936ea7c7fe00000000"/>
+		<Metadata name="ChartOfAccounts.ПланСчетов1.Predefined" id="e23ff7cf-bcab-4990-8a2a-4f09aea4b9eb.9" configVersion="d513b79e2e4e594cb8c3c3b7c17a190b00000000"/>
+		<Metadata name="CommonModule.ПереставитьГраницуВФоне" id="ae3c9697-a911-498d-bc5c-d5680916c4b3" configVersion="ae458aa62a568f4eb432941016b1a81a00000000"/>
+		<Metadata name="CommonModule.ПереставитьГраницуВФоне.Module" id="ae3c9697-a911-498d-bc5c-d5680916c4b3.0" configVersion="e53bbef561a4ce4885b7fd8450800b1400000000"/>
+		<Metadata name="Configuration.Конфигурация" id="43055663-6117-445e-a84b-775527896cba" configVersion="7730b63d8a0d9f4ca767618ec849d71200000000"/>
+		<Metadata name="DataProcessor.ГенерацияДанныхИТест" id="738bd558-3183-4801-8c69-bfb467abe1b0" configVersion="0290c7e19a7bad46a0b129de8baa564000000000">
+			<Metadata name="DataProcessor.ГенерацияДанныхИТест.Attribute.Дата" id="0f8b71b6-0020-4f25-9045-3339a312a8b1"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма" id="62f4a4d6-55e8-4d81-8231-8947d23ec143" configVersion="9eb14988ab06074dafe4c8ce018198c300000000"/>
+		<Metadata name="DataProcessor.ГенерацияДанныхИТест.Form.Форма.Form" id="62f4a4d6-55e8-4d81-8231-8947d23ec143.0" configVersion="f2d611e6d943ea409e3e67677ceaf48500000000"/>
+		<Metadata name="Document.Документ1" id="6659d170-c19a-417b-a614-c9778092a182" configVersion="72d8f23f483e9d4db5c2e3604dcdbf8000000000"/>
+		<Metadata name="Document.Документ1.ObjectModule" id="6659d170-c19a-417b-a614-c9778092a182.0" configVersion="bde68c82d66bf344b0017fe21b65a54800000000"/>
+		<Metadata name="Document.Документ2" id="95372996-4115-4449-94ba-1f32a9693e59" configVersion="63c84443a417a741bed2dd90b02ef65a00000000"/>
+		<Metadata name="Document.Документ2.AdditionalIndexes" id="95372996-4115-4449-94ba-1f32a9693e59.3" configVersion="550487f5d47752418ccb0e445ce5bd3100000000"/>
+		<Metadata name="Document.Документ2.Help" id="95372996-4115-4449-94ba-1f32a9693e59.1" configVersion="ab6c81750b45344cab71717a8f51fc8600000000"/>
+		<Metadata name="Document.Документ2.ManagerModule" id="95372996-4115-4449-94ba-1f32a9693e59.2" configVersion="a65bc81bf6abdd47bbcbbcfa3cd55e7100000000"/>
+		<Metadata name="Document.Документ2.ObjectModule" id="95372996-4115-4449-94ba-1f32a9693e59.0" configVersion="499be346a21b8c43a3c6513cda226abe00000000"/>
+		<Metadata name="Language.Русский" id="e383cd0e-d39e-490b-9e60-5ccab8366020" configVersion="7c87b7c58ec2db45a53eed67892bf4f800000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
