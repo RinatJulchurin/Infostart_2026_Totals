@@ -7,7 +7,7 @@
 1. Файл лога с воспроизведением ошибки ![26070414.log](logs/С_ошибкой/26070414.log)
 
 ![Управляемые блокировки](./img/TotalsCollisions2.png)
-05:26.532039 <details>
+<details>
 
 <summary> $\color{magenta}{TLOCK\ DIMS}$ </summary>
 
