@@ -6,7 +6,14 @@
 
 1. Файл лога с воспроизведением ошибки ![26070414.log](logs/С_ошибкой/26070414.log)
 
-![Управляемые блокировки](./img/TotalsCollisions.png)
+![Управляемые блокировки](./img/TotalsCollisions2.png)
+<details>
+
+<summary> TLOCK DIMS </summary>
+
+
+
+</details>
 
 2. Файл лога с исправленной ошибкой ![26070416.log](logs/Исправленный/26070416.log)
 
