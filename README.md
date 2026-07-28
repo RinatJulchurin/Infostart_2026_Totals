@@ -9,7 +9,7 @@
 ![Управляемые блокировки](./img/TotalsCollisions2.png)
 <details>
 
-<summary> $\color{magenta}{TLOCK\ DIMS}$ </summary>
+<summary> $\color{magenta}{TLOCK\ DIMS\ -\ блокировка\ по\ сентябрь}$ </summary>
 
 05:26.532039-3,TLOCK,4,level=INFO,process=rphost,p:processName=test,OSThread=4120,t:clientID=435,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=28,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Regions=AccRg56.DIMS,Locks='AccRg56.DIMS Exclusive Period=[T"00010101000000":T"20220901000000"]',WaitConnections=,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестВоспроизведенияОшибкиНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 165 : ПереставитьГраницуВФоне.ПереставитьГраницуВФонеСБлокировкой(КонецМесяца(ДобавитьМесяц(ДатаТеста,-1)));
@@ -19,7 +19,7 @@
 
 <details>
 
-<summary> $\color{lime}{TLOCK\ REC}$ </summary>
+<summary> $\color{lime}{TLOCK\ REC\ -\ блокировка\ ссылки}$ </summary>
 
 06:26.798029-5,TLOCK,4,level=INFO,process=rphost,p:processName=test,OSThread=4120,t:clientID=435,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=28,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Regions=AccRg56.RECORDER,Locks='AccRg56.RECORDER Exclusive Recorder=65:a4077c8334bd084411f17006c7852299',WaitConnections=,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестВоспроизведенияОшибкиНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 190 : Набор.Записать();'
@@ -28,7 +28,7 @@
 
 <details>
 
-<summary> $\color{magenta}{UPDATE\ AccRgOpt\ SET\ Period\ =\ 40260901 }$ </summary>
+<summary> $\color{magenta}{UPDATE\ AccRgOpt\ SET\ Period\ =\ 40260901\ -\ обновление\ новой\ границы}$ </summary>
 
 06:37.440010-3,TLOCK,4,level=INFO,process=rphost,p:processName=test,OSThread=8264,t:clientID=438,t:applicationName=BackgroundJob,t:computerName=rilink,t:connectID=30,SessionID=3,Usr=DefUser,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Regions=AccRgOpt63,Locks='AccRgOpt63 Exclusive RegID=4B8A3D3E5D0A3D489F6B3041A662E25D',WaitConnections=,Context='
 ОбщийМодуль.ПереставитьГраницуВФоне.Модуль : 6 : РегистрыБухгалтерии.РегистрБухгалтерии1.УстановитьМаксимальныйПериодРассчитанныхИтогов(ДатаИтогов);'
@@ -44,7 +44,7 @@ p_1: 0x4B8A3D3E5D0A3D489F6B3041A662E25D
 
 <details>
 
-<summary> $\color{lime}{TLOCK\ DIMS}$ </summary>
+<summary> $\color{lime}{TLOCK\ DIMS\ -\ блокировка\ итогов,\ которые\ меняет\ проводка,\ ожидание\ 10\ секунд}$ </summary>
 
 06:37.456017-10657979,TLOCK,4,level=INFO,process=rphost,p:processName=test,OSThread=4120,t:clientID=435,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=28,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Regions=AccRg56.DIMS,Locks='AccRg56.DIMS Exclusive Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e, Correspond=0 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353e,AccRg56.DIMS Exclusive Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c, Correspond=1 Period=T"20220901000000" Splitter=0 Account=53:a4077c8334bd084411f16f2e5e36353c',WaitConnections=30,connectionID=da41581d-154a-4918-a4fc-234c566a6db5,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестВоспроизведенияОшибкиНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 190 : Набор.Записать();'
@@ -53,7 +53,7 @@ p_1: 0x4B8A3D3E5D0A3D489F6B3041A662E25D
 
 <details>
 
-<summary> $\color{lime}{INSERT\ проводки}$ </summary>
+<summary> $\color{lime}{INSERT\ -\ вставка\ проводок,\ обновления\ итогов\ нет}$ </summary>
 
 06:37.471032-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=4120,t:clientID=435,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=28,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=53,Sql='INSERT INTO dbo._AccRg56 (_Period,_RecorderTRef,_RecorderRRef,_LineNo,_Active,_AccountDtRRef,_AccountCtRRef,_Fld57) VALUES(?,?,?,?,?,?,?,?)',Prm='
 p_0: 40220915082003
