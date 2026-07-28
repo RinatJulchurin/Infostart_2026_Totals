@@ -315,6 +315,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213018-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + -?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -324,6 +325,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213022-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + -?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -333,6 +335,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213026-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -342,6 +345,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213030-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -351,6 +355,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213034-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -360,6 +365,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213038-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -369,6 +375,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213042-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -378,6 +385,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213046-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -387,6 +395,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.213050-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -396,6 +405,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229000-15947,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -405,6 +415,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229004-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -414,6 +425,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229008-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -423,6 +435,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229012-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -432,6 +445,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229016-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -441,6 +455,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229020-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -450,6 +465,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229024-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -459,6 +475,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229028-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -468,6 +485,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229032-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -477,6 +495,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229036-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -486,6 +505,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229040-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -495,6 +515,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229044-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -504,6 +525,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229048-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -513,6 +535,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229052-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -522,6 +545,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229056-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -531,6 +555,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229060-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -540,6 +565,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229064-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
@@ -549,6 +575,7 @@ p_2: 0xA4077C8334BD084411F16F2E5E36353E
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.229068-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverDt59 = ISNULL(T1._TurnoverDt59, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + ?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -558,6 +585,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353E
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.245001-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _TurnoverCt60 = ISNULL(T1._TurnoverCt60, 0.0) + ?, _Turnover61 = ISNULL(T1._Turnover61, 0.0) + -?
 FROM dbo._AccRgAT058 T1
 WHERE T1._Period = ? AND T1._AccountRRef = ? AND T1._Splitter = 0.0
@@ -567,6 +595,7 @@ p_2: 40220901000000
 p_3: 0xA4077C8334BD084411F16F2E5E36353C
 ',Rows=0,RowsAffected=1,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
+
 03:06.245005-1,DBMSSQL,5,level=DEBUG,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Trans=1,dbpid=66,Sql='UPDATE T1 SET _Fld57 = T1._Fld57 + ?
 FROM dbo._AccRgCT62 T1
 WHERE T1._Period = ? AND T1._AccountDtRRef = ? AND T1._AccountCtRRef = ? AND T1._Splitter = 0.0
