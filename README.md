@@ -188,7 +188,7 @@ p_1: 0x4B8A3D3E5D0A3D489F6B3041A662E25D
 
 <details>
 
-<summary> $\color{lime}{TLOCK\ REC\ -\ блокировка\ ссылки,\ ожидание 7 секунд}$ </summary>
+<summary> $\color{lime}{TLOCK\ REC\ -\ блокировка\ ссылки,\ ожидание\ 7\ секунд}$ </summary>
 
 03:06.057037-7437015,TLOCK,4,level=INFO,process=rphost,p:processName=test,OSThread=8300,t:clientID=1151,t:applicationName=1CV8C,t:computerName=rilink,t:connectID=56,SessionID=2,Usr=DefUser,AppID=1CV8C,DBMS=DBMSSQL,DataBase=127.0.0.1\test,Regions=AccRg56.RECORDER,Locks='AccRg56.RECORDER Exclusive Recorder=65:a4077c8334bd084411f17006c7852299',WaitConnections=58,connectionID=57c51c72-4f59-46cc-97e0-9071135a08a8,Context='Форма.Вызов : Обработка.ГенерацияДанныхИТест.Форма.Форма.Модуль.ТестИсправленныйНаСервере
 Обработка.ГенерацияДанныхИТест.Форма.Форма.Форма : 118 : Набор.Записать();'
